@@ -161,3 +161,4 @@ AUTH_USER_MODEL = "accounts.CustomUser"
 # email
 # email will go to console for now, need to change in production
 EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
+LOGIN_REDIRECT_URL = "auth"
